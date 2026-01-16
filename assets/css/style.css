@@ -1397,8 +1397,8 @@
             width: 100%;
             max-width: var(--app-max-width);
             background: var(--bg-primary);
-            border-radius: var(--border-radius-xl) var(--border-radius-xl) 0 0;
-            max-height: 85vh;
+           
+            max-height: 100vh;
             overflow-y: auto;
             transform: translateY(100%);
             animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
