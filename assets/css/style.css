@@ -1989,7 +1989,7 @@
         /* ===== SYMPTOMS STYLES ===== */
         .symptoms-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             gap: var(--spacing-md);
             margin-bottom: var(--spacing-lg);
         }
