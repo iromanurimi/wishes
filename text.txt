@@ -1,0 +1,33 @@
+.duration-display {
+            display: flex;
+            justify-content: space-between;
+             gap: var(--spacing-sm);
+
+             margin-bottom: var(--spacing-lg);
+           
+        }
+
+        .duration-itemA {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            padding: var(--spacing-sm);
+            background: var( --pastel-yellow);
+            border-radius: var(--border-radius-md);
+            transition: all var(--transition-fast);
+            border: 1px solid yellow;
+            flex-direction: column;
+        }
+        .duration-itemB {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            padding: var(--spacing-sm);
+            background: var( --pastel-pink);
+            border-radius: var(--border-radius-md);
+            transition: all var(--transition-fast);
+            border: 1px solid pink;
+            flex-direction: column;
+        }
